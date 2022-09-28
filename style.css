@@ -1,3 +1,48 @@
 .hidden{
   display: none;
 }
+
+input{
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+
+body{
+  width: 100%;
+  height: auto;
+  background-image: url('https://images.unsplash.com/photo-1663970206579-c157cba7edda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2456&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrap{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#login-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form input[type="text"]{
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 30px;
+}
+
+#login-form input[type="submit"]{
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 30px;
+}
+
+#greeting{
+  color: #fff;
+  text-align: center;
+}
